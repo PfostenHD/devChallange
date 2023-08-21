@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1{
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+.NavBar{
+    margin-bottom: 4rem;
+}
+.imgContainer{
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center;
+    display: flex;
+}
+img{
+    width: 286px;
+    height: 220px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 30rem;
+    margin: 0 auto;
+    font-family: Space Mono;
+}
+.content h2{
+    color:#333;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1.68px;
+}
+.content p{
+    color:#4F4F4F;
+    font-family: Space Mono;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.63px;
+}
+.butonContainer{
+    margin-top: 3rem;
+}
+.butonContainer a{
+    background-color: black;
+    color:  white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+@media (min-width: 900px) {
+
+    .NavBar{
+        margin-bottom: 10rem;
+    }
+
+    .content{
+        flex-direction: row;
+        max-width: 90rem;
+        gap: 5rem;
+    }
+    img{
+        width: 539px;
+        height: 414px;
+    }
+    .content h1{
+        font-size: 64px;
+    }
+    .content p{
+        font-size: 24px;
+    }
+    .textContainer{
+        max-width: 20rem;
+    }
+}
